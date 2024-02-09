@@ -1,0 +1,128 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Kingston DataTraveler 100 G3",
+            "description": "Durable black USB stick with sliding cover",
+            "capacity": "64GB",
+            "manufacturingYear": 2021,
+            "category": {
+                "id": 1,
+                "title": "USB Stick"
+            }
+        },
+        {
+            "id": 2,
+            "title": "SanDisk Extreme Pro",
+            "description": "High-speed USB stick with solid metal casing",
+            "capacity": "128GB",
+            "manufacturingYear": 2022,
+            "category": {
+                "id": 1,
+                "title": "USB Stick"
+            }
+        },
+        {
+            "id": 3,
+            "title": "Samsung T5 Portable SSD",
+            "description": "Compact and lightweight external SSD with USB 3.1",
+            "capacity": "1TB",
+            "manufacturingYear": 2020,
+            "category": {
+                "id": 2,
+                "title": "External SSD"
+            }
+        },
+        {
+            "id": 4,
+            "title": "Western Digital My Passport Ultra",
+            "description": "Portable external HDD with password protection",
+            "capacity": "4TB",
+            "manufacturingYear": 2019,
+            "category": {
+                "id": 3,
+                "title": "External HDD"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Seagate Backup Plus Slim",
+            "description": "Slim external hard drive with customizable backup options",
+            "capacity": "2TB",
+            "manufacturingYear": 2021,
+            "category": {
+                "id": 3,
+                "title": "External HDD"
+            }
+        },
+        {
+            "id": 6,
+            "title": "Lexar JumpDrive S57",
+            "description": "USB 3.0 stick with advanced security software",
+            "capacity": "256GB",
+            "manufacturingYear": 2022,
+            "category": {
+                "id": 1,
+                "title": "USB Stick"
+            }
+        },
+        {
+            "id": 7,
+            "title": "Toshiba Canvio Basics",
+            "description": "Easy-to-use external HDD with plug-and-play operation",
+            "capacity": "1TB",
+            "manufacturingYear": 2018,
+            "category": {
+                "id": 3,
+                "title": "External HDD"
+            }
+        },
+        {
+            "id": 8,
+            "title": "Crucial X8 Portable SSD",
+            "description": "Rugged external SSD with impressive speed",
+            "capacity": "500GB",
+            "manufacturingYear": 2021,
+            "category": {
+                "id": 2,
+                "title": "External SSD"
+            }
+        },
+        {
+            "id": 9,
+            "title": "PNY Turbo Attaché 4",
+            "description": "Fast and reliable USB 3.0 flash drive",
+            "capacity": "128GB",
+            "manufacturingYear": 2022,
+            "category": {
+                "id": 1,
+                "title": "USB Stick"
+            }
+        },
+        {
+            "id": 10,
+            "title": "LaCie Rugged Mini",
+            "description": "Shock-resistant external HDD with USB 3.0",
+            "capacity": "2TB",
+            "manufacturingYear": 2020,
+            "category": {
+                "id": 3,
+                "title": "External HDD"
+            }
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "title": "USB Stick"
+        },
+        {
+            "id": 2,
+            "title": "External SSD"
+        },
+        {
+            "id": 3,
+            "title": "External HDD"
+        }
+    ]
+}
