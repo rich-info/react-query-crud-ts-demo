@@ -1,6 +1,8 @@
 # react-query-crud-ts-demo
 
-This demo provides a perfect setup to get React working with
+Demo: [react-query-crud-ts-demo](https://react-query-crud-ts-demo.vercel.app)
+
+This repository provides a perfect setup to get React working with
 - React 18
 - React Query (Tanstack Query) with useQuery (GET) and useMutation (PUT, POST)
 - REST API calls (GET, PUT, POST, DELETE)
