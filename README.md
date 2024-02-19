@@ -4,6 +4,8 @@ This demo provides a perfect setup to get React working with
 - React 18
 - React Query (Tanstack Query) with useQuery (GET) and useMutation (PUT, POST)
 - REST API calls (GET, PUT, POST, DELETE)
+  - local development: uses a [json-server](https://github.com/typicode/json-server)
+  - productson deployment: uses [json-server on vercel](https://github.com/rich-info/vercel-json-server)
 - CRUD data operations (CREATE, READ, UPDATE, DELETE)
 - Eslint rules
 - Pagination
