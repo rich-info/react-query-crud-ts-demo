@@ -14,22 +14,25 @@ const Products: React.FC = () => {
   }
 
   return (
-    <table>
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Name</th>
-        </tr>
-      </thead>
-      <tbody>
-        {data.map((product: Product) => (
-          <tr key={product.title}>
-            <td>{product.title}</td>
-            <td>{product.capacity}</td>
+    <div>
+      <h1>Products</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {data.map((product: Product) => (
+            <tr key={product.title}>
+              <td>{product.title}</td>
+              <td>{product.capacity}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 };
 

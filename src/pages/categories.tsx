@@ -14,6 +14,8 @@ const Categories: React.FC = () => {
   }
 
   return (
+    <div>
+      <h1>Categories</h1>
     <table>
       <thead>
         <tr>
@@ -30,6 +32,7 @@ const Categories: React.FC = () => {
         ))}
       </tbody>
     </table>
+    </div>
   );
 };
 
