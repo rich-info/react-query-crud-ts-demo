@@ -15,7 +15,7 @@ const Products: React.FC = () => {
 
   return (
     <div>
-      <h1>Products</h1>
+      <h4 className="mb-2 text-3xl font-bold">Products</h4>
       <table>
         <thead>
           <tr>

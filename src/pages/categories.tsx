@@ -15,23 +15,23 @@ const Categories: React.FC = () => {
 
   return (
     <div>
-      <h1>Categories</h1>
-    <table>
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Name</th>
-        </tr>
-      </thead>
-      <tbody>
-        {data.map((category: Category) => (
-          <tr key={category.id}>
-            <td>{category.id}</td>
-            <td>{category.title}</td>
+      <h4 className="mb-2 text-3xl font-bold">Categories</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {data.map((category: Category) => (
+            <tr key={category.id}>
+              <td>{category.id}</td>
+              <td>{category.title}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 };
