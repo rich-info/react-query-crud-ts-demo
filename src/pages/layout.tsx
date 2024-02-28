@@ -5,10 +5,11 @@ const Layout = () => {
   return (
     <>
       <header>
-        <Navbar />        
+        <Navbar />
       </header>
-
-      <Outlet />
+      <div className="container mx-auto">
+        <Outlet />
+      </div>
     </>
   );
 };
