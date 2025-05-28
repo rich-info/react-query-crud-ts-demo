@@ -21,9 +21,7 @@ const DeleteConfirmationModal: React.FC<DeleteConfirmationModalProps> = ({
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
       <div className="bg-black p-6 rounded-lg w-96">
         <h2 className="text-2xl font-bold mb-4">Delete Confirmation</h2>
-        <p className="mb-6">
-          Are you sure you want to delete the category {itemName}?
-        </p>
+        <p className="mb-6">Are you sure you want to delete {itemName}?</p>
         <div className="flex justify-end gap-2">
           <button
             type="button"
@@ -47,4 +45,4 @@ const DeleteConfirmationModal: React.FC<DeleteConfirmationModalProps> = ({
   );
 };
 
-export default DeleteConfirmationModal; 
+export default DeleteConfirmationModal;
