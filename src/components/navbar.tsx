@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
@@ -36,7 +37,11 @@ const Navbar = () => {
         {navItems.map((item) => (
           <NavLink
             key={item.id}
-            className="p-6 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black"
+            className={({ isActive }) =>
+              `p-6 text-lg hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black ${
+                isActive ? "underline decoration-[#00df9a]" : ""
+              }`
+            }
             to={item.link}
           >
             {item.text}
@@ -45,7 +50,7 @@ const Navbar = () => {
       </div>
 
       <div onClick={handleNavIconClick} className="block md:hidden">
-        {visible ? <span>Hide</span> : <span>Nav</span>}
+        {visible ? <X size={24} /> : <Menu size={24} />}
       </div>
 
       <div
@@ -73,7 +78,11 @@ const Navbar = () => {
           <NavLink
             key={item.id}
             onClick={handleNavIconClick}
-            className="p-4 border-b  hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600"
+            className={({ isActive }) =>
+              `p-4 text-lg border-b hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600 ${
+                isActive ? "underline decoration-[#00df9a]" : ""
+              }`
+            }
             to={item.link}
           >
             {item.text}
