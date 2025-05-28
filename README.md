@@ -2,7 +2,12 @@
 
 Demo: [react-query-crud-ts-demo](https://react-query-crud-ts-demo.vercel.app)
 
+![Products table](docs/products-table.png)
+![Modal form](docs/add-category-modal.png)
+![Cards](docs/cards-on-start-page.png)
+
 This repository provides a perfect setup to get React working with
+
 - React 18
 - React Query (Tanstack Query) with useQuery (GET) and useMutation (PUT, POST)
 - REST API calls (GET, PUT, POST, DELETE)
@@ -10,7 +15,6 @@ This repository provides a perfect setup to get React working with
   - productson deployment: uses [json-server on vercel](https://github.com/rich-info/vercel-json-server)
 - CRUD data operations (CREATE, READ, UPDATE, DELETE)
 - Eslint rules
-- Pagination
 - Vite instead of react-scripts and create-react-app
 - Typescript 5
 - Tailwind
