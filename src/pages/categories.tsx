@@ -1,16 +1,18 @@
 import React from "react";
 import { useGetCategories } from "../hooks/data-hooks";
 import { Category } from "../types";
+import NoDataState from "../components/no-data-state";
+import TableSkeleton from "../components/table-skeleton";
 
 const Categories: React.FC = () => {
   const { data, isLoading } = useGetCategories();
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return <TableSkeleton />;
   }
 
   if (!data || data.length === 0) {
-    return <div>No data</div>;
+    return <NoDataState message="No products found" />;
   }
 
   return (

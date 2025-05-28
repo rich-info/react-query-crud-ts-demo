@@ -1,16 +1,18 @@
 import React from "react";
 import { useGetProducts } from "../hooks/data-hooks";
 import { Product } from "../types";
+import LoadingSpinner from "../components/loading-spinner";
+import NoDataState from "../components/no-data-state";
 
 const Products: React.FC = () => {
   const { data, isLoading } = useGetProducts();
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return <LoadingSpinner />;
   }
 
   if (!data || data.length === 0) {
-    return <div>No data</div>;
+    return <NoDataState message="No products found" />;
   }
 
   return (
